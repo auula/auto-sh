@@ -52,7 +52,7 @@ InstallMaven() {
     echo -e "  [ \033[32mINFO\033[0m ]  Install Maven to OS ....."
     # install maven
     echo -e "\033[32m -----------------------------------------------------------------------------------------------\033[0m"
-    wget http://mirrors.tuna.tsinghua.edu.cn/apache/maven/maven-3/3.6.1/binaries/apache-maven-3.6.1-bin.tar.gz
+    wget -c ${mavenfileurl}
     tar -vxf apache-maven-3.6.1-bin.tar.gz
     mv apache-maven-3.6.1 /usr/local/maven3
     mavenHome=$(cat /etc/profile | grep 'export MAVEN_HOME=')
