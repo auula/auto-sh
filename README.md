@@ -1,2 +1,2 @@
 # auto-sh
-auto-sh这个仓库是本人平唱编写的Linux的shell自动化运维脚本分享给你大家！！！
+auto-sh这个仓库是本人平常编写和收藏的Linux的shell自动化运维脚本分享给你大家！！！
